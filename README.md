@@ -9,4 +9,4 @@ Password : admin123
 3. Navigate to Admin in the side panel
 4. Click on Add
 5. Add a User
-6. Delet this User
+6. Delete this User
