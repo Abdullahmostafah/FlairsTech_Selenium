@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="857cdeca-0741-466d-b72f-37a394f870e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestBases/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/AdminPanelSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Balad_Task_Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBases/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/BaladTaskOrange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Abdullahmostafah"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Abdullahmostafah/Balad_Automation.git",
+    "accountId": "bc0071bb-e0ea-40ea-ac15-59b1697921c4"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,10 +64,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Scenario: Add, Verify, and Delete a User.executor": "Run",
+    "JUnit.All in Balad.executor": "Debug",
+    "JUnit.TestRunners.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Abdulla/IdeaProjects/Balad_Automation/target",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -54,27 +83,60 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="TestBases" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdulla\IdeaProjects\Balad_Automation\target" />
+      <recent name="C:\Users\Abdulla\IdeaProjects\Balad_Automation\src\main\java" />
+      <recent name="C:\Users\Abdulla\IdeaProjects\Balad_Automation\src\test\java" />
+      <recent name="C:\Users\Abdulla\IdeaProjects\Balad_Automation\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdulla\IdeaProjects\Balad_Automation" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="StepDefinitions" />
       <recent name="TestBases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BaladTaskOrange">
-    <configuration name="BaladTaskOrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCases.BaladTaskOrange" />
+  <component name="RunManager" selected="JUnit.TestRunners">
+    <configuration name="Scenario: Add, Verify, and Delete a User" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Balad" />
+      <option name="NAME_FILTER" value="^Add\, Verify\, and Delete a User$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add\, Verify\, and Delete a User$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add, Verify, and Delete a User" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="All in Balad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Balad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Balad" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="Runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.TestRunners" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,23 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Abdullah/IdeaProjects/Balad_Automation/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Balad" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunners" />
+        <item itemvalue="Cucumber Java.Scenario: Add, Verify, and Delete a User" />
+        <item itemvalue="JUnit.All in Balad" />
         <item itemvalue="TestNG.BaladTaskOrange" />
         <item itemvalue="TestNG.BaladTaskOrange.performMyTest" />
-        <item itemvalue="TestNG.C:/Users/Abdullah/IdeaProjects/Balad_Automation/testNG.xml" />
-        <item itemvalue="Application.BaladTaskOrange" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
