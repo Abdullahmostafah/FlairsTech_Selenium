@@ -1,12 +1,19 @@
-# Balad_Automation
-Visit the following URL:
-OrangeHRM (orangehrmlive.com) https://opensource-demo.orangehrmlive.com/
-Build an automation framework to perform the following:
-1. Login with the provided user
-Username : Admin
-Password : admin123
-2. Scroll down to get this view
-3. Navigate to Admin in the side panel
-4. Click on Add
-5. Add a User
-6. Delete this User
+Please automate the below task:
+The tests should utilize best practice coding standards for maintainability, be aware of design
+patterns in your solution (POM)
+The submitted code should be on GitHub.
+using cucumber tool
+Task:
+1-Navigate to "https://opensource-demo.orangehrmlive.com/"
+2-Enter "Admin" as username
+3-Enter "admin123" as password
+4-Click on the login button
+5-Click on Admin tab on the left side menu
+6-Get the number of records found
+7-Click on add button
+8-Fill the required data
+9-Click on save button
+10-Verify that the number of records increased by 1
+11-Search with the username for the new user
+12-Delete the new user
+13-Verify that the number of records decreased by 1
